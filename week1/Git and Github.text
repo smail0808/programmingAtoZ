@@ -82,8 +82,29 @@ this well puch the git saved files to github
 origin: URLs
 master: workspace we are working on 
 
+--
+$ git branch 
+show you the branch bieng working on locally
 
+--
+$ git clone URL
+ creates a local copy of a project that already exists remotely.
+The clone includes all the project’s files, history, and branches.
 
+--
+$ git merge
+merges lines of development together. This command is typically used
+ to combine changes made on two distinct branches. 
+ For example,a developer would merge when they want to combine changes 
+ from a feature branch into the master branch for deployment
+
+--
+$ git pull
+update your local code from remote like (Github)
+
+--
+$ git log 
+show you all the commit and message
 
 
 
