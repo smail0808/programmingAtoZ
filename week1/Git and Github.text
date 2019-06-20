@@ -23,10 +23,11 @@ make a new folder
 --
 $ > type nul > filename.txt    in windows        $ touch filename.txt     in mac
 create new file 
--------------
+
 -------------
 Setting up Git
---
+-------------
+
 $ git config --global user.name "ismail fiki"
 $ git config --global user.email "smailfiki0808@gmail.com"
 
@@ -60,6 +61,26 @@ $ git diff
 to get the defirance betwen file 
 --
 
+-------------
+Sign up for a Github Account
+-------------
+
+1- create A repository
+
+--
+2-Telling Git about Github
+git remote add origin https://github.com/smail0808/programmingAtoZ.git
+
+We are adding a remote to this Git repository. A remote is another computer
+that we want to share our repository with. Remotes are URLs.
+But those URLs are long so we can give the remote a name,
+in our case origin, so we don’t have to type the entire URL over and over.
+
+--
+$ git push -u origin master
+this well puch the git saved files to github
+origin: URLs
+master: workspace we are working on 
 
 
 
