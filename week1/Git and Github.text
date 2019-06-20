@@ -1,0 +1,89 @@
+Git and Github
+--------------
+Git is a version tracking program used to track changes to files and folders.
+Git allows you to switch back to older versions of these files.
+--
+Github is a website, a social website where instead of photos of partying 
+with your friends you post files of code to program with your friends.
+
+-------------
+some commands for Terminal:
+--
+$ ls  in mac         $ dir   in windows
+see what the contents of ~
+
+--
+$ cd C:\Users\sam\Desktop
+ move to a folder is cd. CD stands for “change directory.”
+
+--
+$ mkdir folder
+make a new folder
+
+--
+$ > type nul > filename.txt    in windows        $ touch filename.txt     in mac
+create new file 
+-------------
+-------------
+Setting up Git
+--
+$ git config --global user.name "ismail fiki"
+$ git config --global user.email "smailfiki0808@gmail.com"
+
+--
+$ git init
+To start tracking a project with Git you need to tell Git to start doing so
+
+--
+$ git status
+What does Git know about the folder you are working on 
+and its contents, and how do we find out what Git knows?
+
+---
+Staging:
+Git uses a concept called a “staging area.” 
+This is a liminal “space” between changes to files and a commit.
+
+--
+$ git add              filename or folder 
+Files are added to Git by typing git add and then the name of the file:
+
+--
+Always Leave A Message:
+When making a commit with Git you are required to leave a message.
+--
+$ git commit -m "your message here"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
