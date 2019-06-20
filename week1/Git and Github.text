@@ -53,6 +53,10 @@ Always Leave A Message:
 When making a commit with Git you are required to leave a message.
 --
 $ git commit -m "your message here"
+The command to make a commit is git commit -m.
+ The -m is to leave a message. Always leave a message.
+--
+$ git diff
 
 
 
