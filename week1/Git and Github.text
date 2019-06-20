@@ -57,6 +57,8 @@ The command to make a commit is git commit -m.
  The -m is to leave a message. Always leave a message.
 --
 $ git diff
+to get the defirance betwen file 
+--
 
 
 
