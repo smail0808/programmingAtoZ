@@ -21,8 +21,16 @@ $ mkdir folder
 make a new folder
 
 --
+$ cd ..
+go back
+
+--
 $ > type nul > filename.txt    in windows        $ touch filename.txt     in mac
 create new file 
+
+--
+$clear 
+clear Terminal
 
 -------------
 Setting up Git
