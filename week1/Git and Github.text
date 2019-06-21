@@ -108,9 +108,18 @@ master: workspace we are working on
 -------------
 Menaging file Using Git
 -------------
-
-
-
+The git push command is used to write to a remote repository.
+Your locally project to you Github Account
+$ git push  o---->  Github
+--
+pull the change from Github to your locally project
+$ git pull  <----o  Github  
+--
+Adding Remote Repositories:
+$ git remote add john http://dev.example.com/john.git
+--
+Inspecting a Remote:
+$ git remote show origin
 
 
 
