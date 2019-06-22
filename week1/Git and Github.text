@@ -78,7 +78,7 @@ $ git clone URL
 The clone includes all the project’s files, history, and branches.
 
 --
-$ git merge
+$ git merge  baranchname      // marge a branch to working branch   
 merges lines of development together. This command is typically used
  to combine changes made on two distinct branches. 
  For example,a developer would merge when they want to combine changes 
@@ -119,6 +119,7 @@ Menaging file Using Git
 The git push command is used to write to a remote repository.
 Your locally project to you Github Account
 $ git push  o---->  Github
+$ git push origin master
 --
 pull the change from Github to your locally project
 $ git pull  <----o  Github  
@@ -131,7 +132,38 @@ $ git remote show origin
 
 --
 :q to get out off vim 
+-------------
+clonig from github to localy
+-------------
+git clone URL                    //  clone repository from github
+git status                       // get the sta of the file 
+git  commit -a -m "message"      // commit change 
+git pull                         // pull any change that happen remotely
+git push origin master           // push the change 
 
+
+-------------
+work locally and push to github
+-------------
+git init                             // add git to the project
+git add .                            // to add any file that changed
+git remote add originname url        // add a remote name originname 
+git push origin master               // push the change 
+git pull originname master           // pull the change from github
+
+
+-------------
+Github pages
+-------------
+ "gh-pages" branch
+
+  ----------------------------------
+get repository from github and pull it in other branch
+ ----------------------------------
+ git remote add originname url               // add a remote name originname 
+ $ git branch baranchname                    // create a branch
+ $ git checkout baranchname                  // go to a branch
+ $ git pull originname baranchname 
 
 
 
